@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aniket Naik | Portfolio</title>
 
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <!-- Bootstrap & Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -13,25 +16,30 @@
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
   <style>
+   /* Global Styles */
     body {
       background-color: #FAF7F3;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Poppins', sans-serif;
       color: #333;
+      line-height: 1.6;
     }
     .navbar {
       background-color: #D9A299;
+      padding: 15px 0;
     }
     .navbar-brand, .nav-link {
       color: #fff !important;
       font-weight: 600;
     }
+
+    /* Hero Section */
     .hero {
       background-color: #F0E4D3;
       padding: 80px 20px;
       text-align: center;
     }
     .hero img {
-      max-width: 150px;
+      max-width: 160px;
       border-radius: 50%;
       border: 4px solid #D9A299;
       margin-bottom: 20px;
@@ -41,12 +49,25 @@
       transform: scale(1.05);
     }
     .hero h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #4a3f35;
     }
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    /* Buttons */
     .btn-custom {
       background-color: #D9A299;
       color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 10px 20px;
       border: none;
       transition: 0.3s;
     }
@@ -54,31 +75,64 @@
       background-color: #DCC5B2;
       color: #333;
     }
+
+    /* Section Titles */
     .section-title {
-      font-size: 2rem;
-      margin-bottom: 20px;
+      font-size: 2.2rem;
       font-weight: 600;
+      margin-bottom: 30px;
+      color: #4a3f35;
     }
+
+    /* Paragraphs */
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 15px;
+    }
+
+    /* Skills Section */
     .skills-list li {
       display: inline-block;
       background: #DCC5B2;
-      padding: 8px 12px;
-      margin: 5px;
+      padding: 8px 14px;
+      margin: 6px;
       border-radius: 5px;
+      font-size: 1rem;
       font-weight: 500;
     }
+
+    /* Experience */
+    h5 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    /* Project Cards */
     .card {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .card-text {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* Footer */
     .footer {
       background-color: #DCC5B2;
       text-align: center;
       padding: 15px;
       margin-top: 50px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
